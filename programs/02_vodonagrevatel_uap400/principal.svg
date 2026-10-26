@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" font-family="Arial, sans-serif" font-size="14">
+  <rect width="1000" height="760" fill="#fff"/>
+  <g stroke="#000" stroke-width="2" fill="none">
+    <!-- шины A B C N -->
+    <line x1="60" y1="40" x2="60" y2="100"/><line x1="100" y1="40" x2="100" y2="100"/><line x1="140" y1="40" x2="140" y2="100"/>
+    <line x1="180" y1="40" x2="180" y2="420"/>
+    <line x1="180" y1="60" x2="920" y2="60"/>
+    <!-- FU1..FU3 -->
+    <rect x="54" y="100" width="12" height="36"/><rect x="94" y="100" width="12" height="36"/><rect x="134" y="100" width="12" height="36"/>
+    <line x1="60" y1="96" x2="60" y2="140"/><line x1="100" y1="96" x2="100" y2="140"/><line x1="140" y1="96" x2="140" y2="140"/>
+    <line x1="60" y1="136" x2="60" y2="230"/><line x1="100" y1="136" x2="100" y2="230"/><line x1="140" y1="136" x2="140" y2="230"/>
+    <!-- силовые контакты KM -->
+    <line x1="60" y1="272" x2="48" y2="236"/><line x1="100" y1="272" x2="88" y2="236"/><line x1="140" y1="272" x2="128" y2="236"/>
+    <line x1="54" y1="254" x2="134" y2="254" stroke-dasharray="5 4" stroke-width="1"/>
+    <line x1="60" y1="272" x2="60" y2="320"/><line x1="100" y1="272" x2="100" y2="320"/><line x1="140" y1="272" x2="140" y2="320"/>
+    <!-- ТЭНы EK1..EK6 звездой -->
+    <rect x="52" y="320" width="16" height="60"/><rect x="92" y="320" width="16" height="60"/><rect x="132" y="320" width="16" height="60"/>
+    <line x1="60" y1="380" x2="60" y2="420"/><line x1="100" y1="380" x2="100" y2="420"/><line x1="140" y1="380" x2="140" y2="420"/>
+    <line x1="60" y1="420" x2="180" y2="420"/>
+    <!-- отвод на цепь управления от фазы C -->
+    <line x1="140" y1="180" x2="300" y2="180"/>
+    <line x1="300" y1="180" x2="300" y2="196"/>
+    <!-- SF -->
+    <line x1="300" y1="236" x2="288" y2="200"/><line x1="294" y1="192" x2="306" y2="200"/><line x1="306" y1="192" x2="294" y2="200"/>
+    <line x1="300" y1="236" x2="300" y2="520"/>
+    <!-- L -> PLR L -->
+    <line x1="300" y1="255" x2="560" y2="255"/><line x1="560" y1="255" x2="560" y2="320"/>
+    <!-- N -> PLR N -->
+    <line x1="620" y1="60" x2="620" y2="320"/>
+    <!-- L -> SK -> I1 -->
+    <line x1="300" y1="285" x2="370" y2="285"/>
+    <line x1="370" y1="285" x2="408" y2="272"/>
+    <line x1="408" y1="285" x2="408" y2="276"/>
+    <line x1="408" y1="285" x2="470" y2="285"/><line x1="470" y1="285" x2="470" y2="320"/>
+    <!-- PLR -->
+    <rect x="440" y="320" width="300" height="150" stroke-width="2.5"/>
+    <!-- Q1 COM -->
+    <line x1="300" y1="520" x2="500" y2="520"/><line x1="500" y1="520" x2="500" y2="470"/>
+    <!-- Q1 NO -> нагрузки -->
+    <line x1="600" y1="470" x2="600" y2="540"/><line x1="600" y1="540" x2="820" y2="540"/>
+    <line x1="700" y1="540" x2="700" y2="570"/><rect x="684" y="570" width="32" height="44"/><line x1="700" y1="614" x2="700" y2="680"/>
+    <line x1="820" y1="540" x2="820" y2="556"/><rect x="812" y="556" width="16" height="44"/><line x1="820" y1="600" x2="820" y2="618"/>
+    <circle cx="820" cy="634" r="16"/><line x1="809" y1="623" x2="831" y2="645"/><line x1="831" y1="623" x2="809" y2="645"/>
+    <line x1="820" y1="650" x2="820" y2="680"/>
+    <line x1="700" y1="680" x2="920" y2="680"/><line x1="920" y1="60" x2="920" y2="680"/>
+  </g>
+  <g fill="#000">
+    <circle cx="180" cy="60" r="4"/><circle cx="140" cy="180" r="4"/><circle cx="180" cy="420" r="4"/>
+    <circle cx="300" cy="255" r="4"/><circle cx="300" cy="285" r="4"/><circle cx="620" cy="60" r="4"/>
+    <circle cx="700" cy="540" r="4"/><circle cx="700" cy="680" r="4"/>
+    <circle cx="470" cy="320" r="3.5"/><circle cx="560" cy="320" r="3.5"/><circle cx="620" cy="320" r="3.5"/>
+    <circle cx="500" cy="470" r="3.5"/><circle cx="600" cy="470" r="3.5"/>
+  </g>
+  <g font-weight="bold">
+    <text x="54" y="32">A</text><text x="94" y="32">B</text><text x="134" y="32">C</text><text x="174" y="32">N</text>
+  </g>
+  <text x="10" y="124">FU1–3</text>
+  <text x="10" y="258">KM</text>
+  <text x="10" y="356">EK</text>
+  <text x="20" y="450">EK1–EK6 — ТЭНы (6 шт.),</text>
+  <text x="20" y="468">по 2 на фазу, звезда</text>
+  <text x="312" y="222">SF</text>
+  <text x="360" y="270">SK</text><text x="412" y="268" font-size="12">t°</text>
+  <text x="464" y="340" font-size="12">I1</text><text x="552" y="340" font-size="12">L</text><text x="612" y="340" font-size="12">N</text>
+  <text x="484" y="462" font-size="12">Q1.1</text><text x="584" y="462" font-size="12">Q1.2</text>
+  <text x="590" y="385" text-anchor="middle" font-size="18" font-weight="bold">ONI PLR</text>
+  <text x="590" y="408" text-anchor="middle" font-size="13">PLR-S-CPU-1410</text>
+  <text x="590" y="428" text-anchor="middle" font-size="12">программа: Q1 = I1</text>
+  <text x="726" y="597">KM</text>
+  <text x="836" y="583">R</text><text x="842" y="640">HG</text>
+  <text x="310" y="512" font-size="12">L</text>
+  <text x="926" y="400" font-size="12">N</text>
+  <text x="20" y="720" font-size="13">Реле KV исходной схемы заменено реле ONI PLR: термоконтакт SK подан на вход I1, выход Q1 включает</text>
+  <text x="20" y="740" font-size="13">катушку контактора KM (ТЭНы) и параллельно сигнальную лампу HG через резистор R — как в исходной схеме.</text>
+</svg>
