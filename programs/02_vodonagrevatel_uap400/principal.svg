@@ -1,183 +1,206 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="988" viewBox="0 0 1100 988" font-family="Arial, sans-serif" font-size="14">
-  <rect width="1100" height="988" fill="#fff"/>
-  <g stroke="#000" stroke-width="2" fill="none">
-    <line x1="60" y1="40" x2="60" y2="100"/>
-    <rect x="54" y="100" width="12" height="36"/>
-    <line x1="60" y1="96" x2="60" y2="140"/>
-    <line x1="60" y1="136" x2="60" y2="230"/>
-    <line x1="60" y1="272" x2="48" y2="236"/>
-    <line x1="60" y1="272" x2="60" y2="300"/>
-    <line x1="42" y1="300" x2="78" y2="300"/>
-    <line x1="42" y1="300" x2="42" y2="320"/>
-    <rect x="35" y="320" width="14" height="56"/>
-    <line x1="42" y1="376" x2="42" y2="420"/>
-    <line x1="78" y1="300" x2="78" y2="320"/>
-    <rect x="71" y="320" width="14" height="56"/>
-    <line x1="78" y1="376" x2="78" y2="420"/>
-    <line x1="150" y1="40" x2="150" y2="100"/>
-    <rect x="144" y="100" width="12" height="36"/>
-    <line x1="150" y1="96" x2="150" y2="140"/>
-    <line x1="150" y1="136" x2="150" y2="230"/>
-    <line x1="150" y1="272" x2="138" y2="236"/>
-    <line x1="150" y1="272" x2="150" y2="300"/>
-    <line x1="132" y1="300" x2="168" y2="300"/>
-    <line x1="132" y1="300" x2="132" y2="320"/>
-    <rect x="125" y="320" width="14" height="56"/>
-    <line x1="132" y1="376" x2="132" y2="420"/>
-    <line x1="168" y1="300" x2="168" y2="320"/>
-    <rect x="161" y="320" width="14" height="56"/>
-    <line x1="168" y1="376" x2="168" y2="420"/>
-    <line x1="240" y1="40" x2="240" y2="100"/>
-    <rect x="234" y="100" width="12" height="36"/>
-    <line x1="240" y1="96" x2="240" y2="140"/>
-    <line x1="240" y1="136" x2="240" y2="230"/>
-    <line x1="240" y1="272" x2="228" y2="236"/>
-    <line x1="240" y1="272" x2="240" y2="300"/>
-    <line x1="222" y1="300" x2="258" y2="300"/>
-    <line x1="222" y1="300" x2="222" y2="320"/>
-    <rect x="215" y="320" width="14" height="56"/>
-    <line x1="222" y1="376" x2="222" y2="420"/>
-    <line x1="258" y1="300" x2="258" y2="320"/>
-    <rect x="251" y="320" width="14" height="56"/>
-    <line x1="258" y1="376" x2="258" y2="420"/>
-    <line x1="48" y1="254" x2="228" y2="254" stroke-dasharray="5 4" stroke-width="1"/>
-    <line x1="42" y1="420" x2="320" y2="420"/>
-    <line x1="320" y1="40" x2="320" y2="420"/>
-    <line x1="320" y1="60" x2="1040" y2="60"/>
-    <line x1="1040" y1="60" x2="1040" y2="680"/>
-    <line x1="240" y1="180" x2="420" y2="180"/>
-    <line x1="420" y1="180" x2="420" y2="196"/>
-    <line x1="420" y1="236" x2="408" y2="200"/>
-    <line x1="414" y1="192" x2="426" y2="200"/>
-    <line x1="426" y1="192" x2="414" y2="200"/>
-    <line x1="420" y1="236" x2="420" y2="520"/>
-    <line x1="420" y1="255" x2="680" y2="255"/>
-    <line x1="680" y1="255" x2="680" y2="320"/>
-    <line x1="740" y1="60" x2="740" y2="320"/>
-    <line x1="420" y1="285" x2="490" y2="285"/>
-    <line x1="490" y1="285" x2="528" y2="272"/>
-    <line x1="528" y1="285" x2="528" y2="276"/>
-    <line x1="528" y1="285" x2="590" y2="285"/>
-    <line x1="590" y1="285" x2="590" y2="320"/>
-    <rect x="560" y="320" width="300" height="150" stroke-width="2.5"/>
-    <line x1="420" y1="520" x2="620" y2="520"/>
-    <line x1="620" y1="520" x2="620" y2="470"/>
-    <line x1="720" y1="470" x2="720" y2="540"/>
-    <line x1="720" y1="540" x2="940" y2="540"/>
-    <line x1="820" y1="540" x2="820" y2="570"/>
-    <rect x="804" y="570" width="32" height="44"/>
-    <line x1="820" y1="614" x2="820" y2="680"/>
-    <line x1="940" y1="540" x2="940" y2="556"/>
-    <rect x="932" y="556" width="16" height="44"/>
-    <line x1="940" y1="600" x2="940" y2="618"/>
-    <circle cx="940" cy="634" r="16"/>
-    <line x1="929" y1="623" x2="951" y2="645"/>
-    <line x1="951" y1="623" x2="929" y2="645"/>
-    <line x1="940" y1="650" x2="940" y2="680"/>
-    <line x1="820" y1="680" x2="1040" y2="680"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1800" viewBox="0 0 1400 1800" font-family="Arial, sans-serif" font-size="22">
+  <rect width="1400" height="1800" fill="#fff"/>
+  <g stroke="#000" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="105" y1="80" x2="105" y2="185"/>
+    <rect x="90" y="185" width="30" height="86"/>
+    <line x1="105" y1="271" x2="105" y2="435"/>
+    <line x1="105" y1="510" x2="141" y2="442"/>
+    <line x1="105" y1="510" x2="105" y2="690"/>
+    <line x1="167" y1="80" x2="167" y2="185"/>
+    <rect x="152" y="185" width="30" height="86"/>
+    <line x1="167" y1="271" x2="167" y2="435"/>
+    <line x1="167" y1="510" x2="203" y2="442"/>
+    <line x1="167" y1="510" x2="167" y2="690"/>
+    <line x1="229" y1="80" x2="229" y2="185"/>
+    <rect x="214" y="185" width="30" height="86"/>
+    <line x1="229" y1="271" x2="229" y2="435"/>
+    <line x1="229" y1="510" x2="265" y2="442"/>
+    <line x1="229" y1="510" x2="229" y2="690"/>
+    <line x1="290" y1="80" x2="290" y2="690"/>
+    <line x1="120" y1="472" x2="262" y2="472" stroke-dasharray="8 6" stroke-width="2"/>
+    <rect x="70" y="690" width="250" height="112"/>
+    <line x1="290" y1="135" x2="1330" y2="135"/>
+    <line x1="1330" y1="135" x2="1330" y2="1175"/>
+    <line x1="716" y1="1175" x2="1330" y2="1175"/>
+    <line x1="229" y1="315" x2="410" y2="315"/>
+    <line x1="410" y1="315" x2="410" y2="335"/>
+    <rect x="378" y="340" width="20" height="28"/>
+    <line x1="410" y1="400" x2="392" y2="352"/>
+    <line x1="404" y1="335" x2="416" y2="345"/>
+    <line x1="416" y1="335" x2="404" y2="345"/>
+    <line x1="410" y1="400" x2="410" y2="410"/>
+    <line x1="410" y1="410" x2="1020" y2="410"/>
+    <line x1="410" y1="410" x2="410" y2="808"/>
+    <line x1="410" y1="808" x2="840" y2="808"/>
+    <rect x="535" y="535" width="733" height="181" stroke-width="4"/>
+    <line x1="535" y1="625" x2="1268" y2="625"/>
+    <line x1="657" y1="535" x2="657" y2="625"/>
+    <line x1="779" y1="535" x2="779" y2="625"/>
+    <line x1="901" y1="535" x2="901" y2="625"/>
+    <line x1="1023" y1="535" x2="1023" y2="625"/>
+    <line x1="1145" y1="535" x2="1145" y2="625"/>
+    <line x1="779" y1="625" x2="779" y2="716"/>
+    <line x1="1023" y1="625" x2="1023" y2="716"/>
+    <line x1="595" y1="716" x2="595" y2="690"/>
+    <line x1="595" y1="690" x2="667" y2="660"/>
+    <line x1="716" y1="716" x2="716" y2="684"/>
+    <line x1="716" y1="684" x2="674" y2="684"/>
+    <line x1="840" y1="716" x2="840" y2="690"/>
+    <line x1="840" y1="690" x2="912" y2="660"/>
+    <line x1="961" y1="716" x2="961" y2="684"/>
+    <line x1="961" y1="684" x2="919" y2="684"/>
+    <line x1="595" y1="410" x2="595" y2="527"/>
+    <line x1="716" y1="135" x2="716" y2="527"/>
+    <line x1="840" y1="410" x2="840" y2="450"/>
+    <line x1="840" y1="450" x2="806" y2="494"/>
+    <line x1="840" y1="494" x2="840" y2="527"/>
+    <line x1="961" y1="410" x2="961" y2="450"/>
+    <line x1="961" y1="450" x2="927" y2="494"/>
+    <line x1="961" y1="494" x2="961" y2="527"/>
+    <line x1="595" y1="724" x2="595" y2="808"/>
+    <line x1="840" y1="724" x2="840" y2="808"/>
+    <line x1="716" y1="724" x2="716" y2="962"/>
+    <rect x="672" y="962" width="88" height="96"/>
+    <line x1="716" y1="1058" x2="716" y2="1175"/>
+    <line x1="961" y1="724" x2="961" y2="876"/>
+    <rect x="940" y="876" width="44" height="90"/>
+    <line x1="961" y1="966" x2="961" y2="1048"/>
+    <circle cx="961" cy="1085" r="37" fill="#fff"/>
+    <line x1="935" y1="1059" x2="987" y2="1111"/>
+    <line x1="987" y1="1059" x2="935" y2="1111"/>
+    <line x1="961" y1="1122" x2="961" y2="1175"/>
+    <circle cx="595" cy="535" r="8" fill="#fff"/>
+    <circle cx="716" cy="535" r="8" fill="#fff"/>
+    <circle cx="840" cy="535" r="8" fill="#fff"/>
+    <circle cx="961" cy="535" r="8" fill="#fff"/>
+    <circle cx="1083" cy="535" r="8" fill="#fff"/>
+    <circle cx="1205" cy="535" r="8" fill="#fff"/>
+    <circle cx="595" cy="716" r="8" fill="#fff"/>
+    <circle cx="716" cy="716" r="8" fill="#fff"/>
+    <circle cx="840" cy="716" r="8" fill="#fff"/>
+    <circle cx="961" cy="716" r="8" fill="#fff"/>
   </g>
   <g fill="#000">
-    <circle cx="60" cy="300" r="4"/>
-    <circle cx="150" cy="300" r="4"/>
-    <circle cx="240" cy="300" r="4"/>
-    <circle cx="320" cy="420" r="4"/>
-    <circle cx="320" cy="60" r="4"/>
-    <circle cx="240" cy="180" r="4"/>
-    <circle cx="420" cy="255" r="4"/>
-    <circle cx="740" cy="60" r="4"/>
-    <circle cx="420" cy="285" r="4"/>
-    <circle cx="590" cy="320" r="3.5"/>
-    <circle cx="680" cy="320" r="3.5"/>
-    <circle cx="740" cy="320" r="3.5"/>
-    <circle cx="620" cy="470" r="3.5"/>
-    <circle cx="720" cy="470" r="3.5"/>
-    <circle cx="820" cy="540" r="4"/>
-    <circle cx="820" cy="680" r="4"/>
+    <circle cx="290" cy="135" r="7"/>
+    <circle cx="716" cy="135" r="7"/>
+    <circle cx="961" cy="1175" r="7"/>
+    <circle cx="229" cy="315" r="7"/>
+    <circle cx="410" cy="410" r="7"/>
+    <circle cx="595" cy="410" r="7"/>
+    <circle cx="840" cy="410" r="7"/>
+    <circle cx="961" cy="410" r="7"/>
+    <circle cx="595" cy="808" r="7"/>
   </g>
-  <text x="55" y="32" font-weight="bold">A</text>
-  <text x="145" y="32" font-weight="bold">B</text>
-  <text x="235" y="32" font-weight="bold">C</text>
-  <text x="315" y="32" font-weight="bold">N</text>
-  <text x="33" y="352" font-size="10" text-anchor="end">EK1</text>
-  <text x="69" y="352" font-size="10" text-anchor="end">EK2</text>
-  <text x="123" y="352" font-size="10" text-anchor="end">EK3</text>
-  <text x="159" y="352" font-size="10" text-anchor="end">EK4</text>
-  <text x="213" y="352" font-size="10" text-anchor="end">EK5</text>
-  <text x="249" y="352" font-size="10" text-anchor="end">EK6</text>
-  <text x="10" y="124">FU1</text>
-  <text x="162" y="124">FU2</text>
-  <text x="252" y="124">FU3</text>
-  <text x="10" y="258">KM</text>
-  <text x="432" y="222">SF</text>
-  <text x="486" y="268">SK</text>
-  <text x="532" y="268" font-size="12">t°</text>
-  <text x="584" y="340" font-size="12">I1</text>
-  <text x="672" y="340" font-size="12">L</text>
-  <text x="732" y="340" font-size="12">N</text>
-  <text x="604" y="462" font-size="12">Q1.1</text>
-  <text x="704" y="462" font-size="12">Q1.2</text>
-  <text x="560" y="312" font-weight="bold">A1</text>
-  <text x="710" y="385" text-anchor="middle" font-size="18" font-weight="bold">ONI PLR</text>
-  <text x="710" y="408" text-anchor="middle" font-size="13">PLR-S-CPU-1410</text>
-  <text x="710" y="428" text-anchor="middle" font-size="12">программа: Q1 = I1</text>
-  <text x="430" y="512" font-size="12">L</text>
-  <text x="846" y="597">KM</text>
-  <text x="956" y="583">R</text>
-  <text x="962" y="640">HG</text>
-  <text x="1046" y="400" font-size="12">N</text>
-  <text x="20" y="450" font-size="12">ТЭНы: по 2 на фазу,</text>
-  <text x="20" y="466" font-size="12">соединение звездой</text>
-  <g stroke="#000" stroke-width="1.2" fill="none">
-    <rect x="20" y="730" width="840" height="198"/>
-    <line x1="140" y1="730" x2="140" y2="928"/>
-    <line x1="560" y1="730" x2="560" y2="928"/>
-    <line x1="610" y1="730" x2="610" y2="928"/>
-    <line x1="20" y1="752" x2="860" y2="752"/>
-    <line x1="20" y1="774" x2="860" y2="774"/>
-    <line x1="20" y1="796" x2="860" y2="796"/>
-    <line x1="20" y1="818" x2="860" y2="818"/>
-    <line x1="20" y1="840" x2="860" y2="840"/>
-    <line x1="20" y1="862" x2="860" y2="862"/>
-    <line x1="20" y1="884" x2="860" y2="884"/>
-    <line x1="20" y1="906" x2="860" y2="906"/>
+  <g stroke="#000" fill="#000">
+    <rect x="47" y="900" width="372" height="380" fill="#fff" stroke-dasharray="8 6" stroke-width="2"/>
+    <text x="233" y="938" font-weight="bold" text-anchor="middle" font-size="19" stroke="none">Программа A1 (ONI PLR Studio)</text>
+    <rect x="70" y="975" width="54" height="34" fill="#e3f4e8" stroke-width="2"/>
+    <text x="97.0" y="998.0" text-anchor="middle" font-weight="bold" font-size="16" stroke="none">I1</text>
+    <rect x="70" y="1045" width="54" height="34" fill="#e3f4e8" stroke-width="2"/>
+    <text x="97.0" y="1068.0" text-anchor="middle" font-weight="bold" font-size="16" stroke="none">I2</text>
+    <rect x="200" y="990" width="60" height="74" fill="#e2ecf8" stroke-width="2"/>
+    <text x="230.0" y="1033.0" text-anchor="middle" font-weight="bold" font-size="16" stroke="none">&amp;</text>
+    <rect x="338" y="975" width="54" height="34" fill="#e3f4e8" stroke-width="2"/>
+    <text x="365.0" y="998.0" text-anchor="middle" font-weight="bold" font-size="16" stroke="none">Q1</text>
+    <rect x="338" y="1045" width="54" height="34" fill="#e3f4e8" stroke-width="2"/>
+    <text x="365.0" y="1068.0" text-anchor="middle" font-weight="bold" font-size="16" stroke="none">Q2</text>
+    <line x1="124" y1="992" x2="162" y2="992" stroke-width="2"/>
+    <line x1="162" y1="992" x2="162" y2="1008" stroke-width="2"/>
+    <line x1="162" y1="1008" x2="200" y2="1008" stroke-width="2"/>
+    <line x1="124" y1="1062" x2="162" y2="1062" stroke-width="2"/>
+    <line x1="162" y1="1062" x2="162" y2="1046" stroke-width="2"/>
+    <line x1="162" y1="1046" x2="200" y2="1046" stroke-width="2"/>
+    <line x1="260" y1="1027" x2="300" y2="1027" stroke-width="2"/>
+    <line x1="300" y1="992" x2="300" y2="1062" stroke-width="2"/>
+    <line x1="300" y1="992" x2="338" y2="992" stroke-width="2"/>
+    <line x1="300" y1="1062" x2="338" y2="1062" stroke-width="2"/>
+    <circle cx="300" cy="1027" r="4" fill="#000"/>
+    <text x="233" y="1130" text-anchor="middle" font-size="20" stroke="none">Q1 = I1 · I2,&#160;&#160;&#160;Q2 = Q1</text>
+    <text x="233" y="1172" text-anchor="middle" font-size="15" stroke="none">SA включён и вода холодная (SK замкнут)</text>
+    <text x="233" y="1196" text-anchor="middle" font-size="15" stroke="none">→ KM включает ТЭНы, горит HG</text>
+    <text x="233" y="1236" text-anchor="middle" font-size="14" stroke="none">файл vodonagrevatel.xlg, проверен в симуляторе</text>
   </g>
-  <text x="20" y="720" font-weight="bold">Перечень элементов</text>
-  <text x="26" y="746" font-weight="bold" font-size="13">Поз. обозн.</text>
-  <text x="146" y="746" font-weight="bold" font-size="13">Наименование</text>
-  <text x="566" y="746" font-weight="bold" font-size="13">Кол.</text>
-  <text x="616" y="746" font-weight="bold" font-size="13">Примечание</text>
-  <text x="26" y="768" font-size="13">FU1–FU3</text>
-  <text x="146" y="768" font-size="13">Предохранитель плавкий</text>
-  <text x="566" y="768" font-size="13">3</text>
-  <text x="616" y="768" font-size="13">силовая цепь</text>
-  <text x="26" y="790" font-size="13">KM</text>
-  <text x="146" y="790" font-size="13">Контактор электромагнитный, катушка ~220 В</text>
-  <text x="566" y="790" font-size="13">1</text>
-  <text x="616" y="790" font-size="13">включает ТЭНы</text>
-  <text x="26" y="812" font-size="13">EK1–EK6</text>
-  <text x="146" y="812" font-size="13">Электронагреватель трубчатый (ТЭН)</text>
-  <text x="566" y="812" font-size="13">6</text>
-  <text x="616" y="812" font-size="13">по 2 на фазу, звезда</text>
-  <text x="26" y="834" font-size="13">SF</text>
-  <text x="146" y="834" font-size="13">Выключатель автоматический однополюсный</text>
-  <text x="566" y="834" font-size="13">1</text>
-  <text x="616" y="834" font-size="13">цепь управления</text>
-  <text x="26" y="856" font-size="13">SK</text>
-  <text x="146" y="856" font-size="13">Датчик-реле температуры (термоконтакт)</text>
-  <text x="566" y="856" font-size="13">1</text>
-  <text x="616" y="856" font-size="13">размыкается при нагреве</text>
-  <text x="26" y="878" font-size="13">R</text>
-  <text x="146" y="878" font-size="13">Резистор добавочный</text>
-  <text x="566" y="878" font-size="13">1</text>
-  <text x="616" y="878" font-size="13">для лампы HG</text>
-  <text x="26" y="900" font-size="13">HG</text>
-  <text x="146" y="900" font-size="13">Лампа сигнальная «Нагрев»</text>
-  <text x="566" y="900" font-size="13">1</text>
-  <text x="616" y="900" font-size="13"></text>
-  <text x="26" y="922" font-size="13">A1</text>
-  <text x="146" y="922" font-size="13">Программируемое реле ONI PLR-S-CPU-1410</text>
-  <text x="566" y="922" font-size="13">1</text>
-  <text x="616" y="922" font-size="13">вместо реле KV</text>
-  <text x="20" y="958" font-size="13">Реле KV исходной схемы (рис. 18.1, б) заменено реле A1: термоконтакт SK подан на вход I1, выход Q1 включает катушку KM</text>
-  <text x="20" y="976" font-size="13">и параллельно лампу HG через резистор R. Вода холодная — SK замкнут — ТЭНы включены; вода нагрета — SK разомкнут — ТЭНы отключены.</text>
+  <g stroke="#000" stroke-width="1.5" fill="none">
+    <rect x="47" y="1440" width="1283" height="320"/>
+    <line x1="210" y1="1440" x2="210" y2="1760"/>
+    <line x1="760" y1="1440" x2="760" y2="1760"/>
+    <line x1="830" y1="1440" x2="830" y2="1760"/>
+    <line x1="47" y1="1472" x2="1330" y2="1472"/>
+    <line x1="47" y1="1504" x2="1330" y2="1504"/>
+    <line x1="47" y1="1536" x2="1330" y2="1536"/>
+    <line x1="47" y1="1568" x2="1330" y2="1568"/>
+    <line x1="47" y1="1600" x2="1330" y2="1600"/>
+    <line x1="47" y1="1632" x2="1330" y2="1632"/>
+    <line x1="47" y1="1664" x2="1330" y2="1664"/>
+    <line x1="47" y1="1696" x2="1330" y2="1696"/>
+    <line x1="47" y1="1728" x2="1330" y2="1728"/>
+  </g>
+  <text x="105" y="60" font-weight="bold" text-anchor="middle" font-size="26">A</text>
+  <text x="167" y="60" font-weight="bold" text-anchor="middle" font-size="26">B</text>
+  <text x="229" y="60" font-weight="bold" text-anchor="middle" font-size="26">C</text>
+  <text x="290" y="60" font-weight="bold" text-anchor="middle" font-size="26">N</text>
+  <text x="52" y="236" font-weight="bold" text-anchor="middle">FU</text>
+  <text x="266" y="543" font-weight="bold" text-anchor="middle">KM</text>
+  <text x="195" y="765" font-weight="bold" text-anchor="middle" font-size="44">Y</text>
+  <text x="195" y="840" font-weight="bold" text-anchor="middle">EK</text>
+  <text x="1358" y="300" font-weight="bold" text-anchor="middle">N</text>
+  <text x="432" y="355" font-weight="bold">SF</text>
+  <text x="1040" y="418" font-weight="bold">L</text>
+  <text x="595" y="598" font-weight="bold" text-anchor="middle">L</text>
+  <text x="716" y="598" font-weight="bold" text-anchor="middle">N</text>
+  <text x="840" y="598" font-weight="bold" text-anchor="middle">I1</text>
+  <text x="961" y="598" font-weight="bold" text-anchor="middle">I2</text>
+  <text x="1083" y="598" font-weight="bold" text-anchor="middle">I3</text>
+  <text x="1205" y="598" font-weight="bold" text-anchor="middle">I4</text>
+  <text x="1255" y="500" font-weight="bold" text-anchor="end" font-size="28">A1</text>
+  <text x="657" y="648" font-weight="bold" text-anchor="middle">Q1</text>
+  <text x="901" y="648" font-weight="bold" text-anchor="middle">Q2</text>
+  <text x="1145" y="680" font-weight="bold" text-anchor="middle">—</text>
+  <text x="742" y="474" font-weight="bold">SK t°</text>
+  <text x="886" y="474" font-weight="bold">SA</text>
+  <text x="785" y="1020" font-weight="bold">KM</text>
+  <text x="1000" y="930" font-weight="bold">R</text>
+  <text x="1012" y="1094" font-weight="bold">HG</text>
+  <text x="47" y="1426" font-weight="bold">Перечень элементов</text>
+  <text x="57" y="1462" font-weight="bold" font-size="18">Поз. обозн.</text>
+  <text x="220" y="1462" font-weight="bold" font-size="18">Наименование</text>
+  <text x="770" y="1462" font-weight="bold" font-size="18">Кол.</text>
+  <text x="840" y="1462" font-weight="bold" font-size="18">Примечание</text>
+  <text x="57" y="1494" font-size="18">FU1–FU3</text>
+  <text x="220" y="1494" font-size="18">Предохранитель плавкий</text>
+  <text x="770" y="1494" font-size="18">3</text>
+  <text x="840" y="1494" font-size="18">силовая цепь</text>
+  <text x="57" y="1526" font-size="18">KM</text>
+  <text x="220" y="1526" font-size="18">Контактор электромагнитный, катушка ~220 В</text>
+  <text x="770" y="1526" font-size="18">1</text>
+  <text x="840" y="1526" font-size="18">включает ТЭНы</text>
+  <text x="57" y="1558" font-size="18">EK</text>
+  <text x="220" y="1558" font-size="18">Блок электронагревателей (ТЭН), звезда</text>
+  <text x="770" y="1558" font-size="18">1</text>
+  <text x="840" y="1558" font-size="18">6 ТЭНов</text>
+  <text x="57" y="1590" font-size="18">SF</text>
+  <text x="220" y="1590" font-size="18">Выключатель автоматический</text>
+  <text x="770" y="1590" font-size="18">1</text>
+  <text x="840" y="1590" font-size="18">цепь управления</text>
+  <text x="57" y="1622" font-size="18">SK</text>
+  <text x="220" y="1622" font-size="18">Датчик-реле температуры</text>
+  <text x="770" y="1622" font-size="18">1</text>
+  <text x="840" y="1622" font-size="18">замкнут, пока вода холодная</text>
+  <text x="57" y="1654" font-size="18">SA</text>
+  <text x="220" y="1654" font-size="18">Выключатель</text>
+  <text x="770" y="1654" font-size="18">1</text>
+  <text x="840" y="1654" font-size="18">разрешение нагрева</text>
+  <text x="57" y="1686" font-size="18">R</text>
+  <text x="220" y="1686" font-size="18">Резистор добавочный</text>
+  <text x="770" y="1686" font-size="18">1</text>
+  <text x="840" y="1686" font-size="18">для лампы HG</text>
+  <text x="57" y="1718" font-size="18">HG</text>
+  <text x="220" y="1718" font-size="18">Лампа сигнальная «Нагрев»</text>
+  <text x="770" y="1718" font-size="18">1</text>
+  <text x="840" y="1718" font-size="18"></text>
+  <text x="57" y="1750" font-size="18">A1</text>
+  <text x="220" y="1750" font-size="18">Программируемое реле ONI PLR-S-CPU-1410</text>
+  <text x="770" y="1750" font-size="18">1</text>
+  <text x="840" y="1750" font-size="18">входы I3, I4 — резерв</text>
+  <text x="560" y="1372" font-weight="bold" font-size="26">Схема б с программируемым реле A1</text>
 </svg>

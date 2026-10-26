@@ -12,11 +12,12 @@ import struct
 import sys
 
 # Размер тела записи (после имени класса) для блоков фиксированной длины.
-FIXED = {"CInputEntity": 0x438, "COutputEntity": 0x440, "CRSEntity": 0x41C}
+FIXED = {"CInputEntity": 0x438, "COutputEntity": 0x440, "CRSEntity": 0x41C,
+         "CLogicANDEntity": 0x480}
 NOTE_HEAD, NOTE_TAIL = 0x41, 0x13C
 LINE_HEAD = 0x166            # до счётчика точек
 POINT_PAD = 100               # байты-заполнители перед координатами точки
-PREFIX = {"CInputEntity": "I", "COutputEntity": "Q", "CRSEntity": "B"}
+PREFIX = {"CInputEntity": "I", "COutputEntity": "Q", "CRSEntity": "B", "CLogicANDEntity": "B"}
 
 
 class Reader:
@@ -54,6 +55,16 @@ class Reader:
         return name
 
 
+def read_points(r, n):
+    pts = []
+    for _ in range(n):
+        if r.cls() != "CPointObj":
+            raise ValueError("ожидалась точка линии на 0x%x" % r.p)
+        r.take(POINT_PAD)
+        pts.append(struct.unpack("<2I", r.take(8)))
+    return pts
+
+
 def parse(data):
     r = Reader(data)
     count = r.u16()
@@ -80,14 +91,10 @@ def parse(data):
             head = r.take(LINE_HEAD)
             src, dst, _, pin, _ = struct.unpack_from("<5I", head, 0x14E)
             npts = r.u16()
-            pts = []
-            for _ in range(npts):
-                if r.cls() != "CPointObj":
-                    raise ValueError("ожидалась точка линии на 0x%x" % r.p)
-                r.take(POINT_PAD)
-                pts.append(struct.unpack("<2I", r.take(8)))
-            r.take(4)
-            objs.append(dict(kind=name, src=src, dst=dst, pin=pin,
+            pts = read_points(r, npts)
+            joints = read_points(r, r.u16())    # точки ветвления (жирные точки на схеме)
+            r.take(2)
+            objs.append(dict(kind=name, src=src, dst=dst, pin=pin, joints=joints,
                              ends=struct.unpack_from("<4I", head, 0x13E), pts=pts, at=start))
         else:
             raise ValueError("неизвестный класс %s на 0x%x" % (name, start))
@@ -120,9 +127,9 @@ def check(path):
         if o["kind"] != "CLineEntity":
             continue
         s, t = blocks.get(o["src"]), blocks.get(o["dst"])
-        print("  линия  %s -> %s (вход %d), точки %s"
+        print("  линия  %s -> %s (вход %d), точки %s%s"
               % (label(s, None) if s else o["src"], label(t, None) if t else o["dst"],
-                 o["pin"], o["pts"]))
+                 o["pin"], o["pts"], ", ветвление %s" % o["joints"] if o["joints"] else ""))
         if not s or not t:
             errors.append("линия ссылается на несуществующий блок")
             continue
@@ -130,8 +137,8 @@ def check(path):
         tx1, _, ty1, _ = t["rect"]
         if o["pts"][0] != (sx2 + 6, sy1 + 16):
             errors.append("начало линии не у выхода %s" % label(s, None))
-        # один вход — посередине блока; два входа — сверху (+8) и снизу (+32)
-        pin_y = {1: [16], 2: [8, 32]}.get(t["n_in"])
+        # один вход — посередине блока; два — сверху (+8) и снизу (+32); четыре — через 8
+        pin_y = {1: [16], 2: [8, 32], 4: [8, 16, 24, 32]}.get(t["n_in"])
         if pin_y and o["pts"][-1] != (tx1 - 6, ty1 + pin_y[o["pin"]]):
             errors.append("конец линии не у входа %d блока %s" % (o["pin"], label(t, None)))
         # вход I передаёт свой ID; выход функц. блока — адрес флага M (B001[M1] = 50000)
