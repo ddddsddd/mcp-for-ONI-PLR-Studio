@@ -38,6 +38,7 @@
 
 ![Программа для ONI PLR Studio](program.png)
 
+Сверху на рисунке — подключение реле (фаза L, ноль N, входы и выходы), ниже — программа.
 Рисунок строит [`draw_program.py`](draw_program.py) (`pip install matplotlib`, затем
 `python3 draw_program.py`).
 
