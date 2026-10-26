@@ -6,6 +6,14 @@
 
 Файл проекта: [`vodonagrevatel.xlg`](vodonagrevatel.xlg) (ONI PLR Studio: *Файл → Открыть…*).
 
+## Полная схема (один лист)
+
+![Полная схема с реле A1](full_scheme.png)
+
+Силовая цепь с ТЭНами EK1…EK6, цепь управления, реле A1 со всеми клеммами, программа, клеммы реле,
+работа схемы и перечень элементов. Для печати — [`full_scheme.pdf`](full_scheme.pdf). Рисует
+[`draw_full.py`](draw_full.py) (`pip install matplotlib`, затем `python3 draw_full.py`).
+
 ## Принципиальная схема
 
 ![Схема б с программируемым реле A1](principal.png)
