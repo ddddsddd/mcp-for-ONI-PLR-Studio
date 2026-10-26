@@ -136,6 +136,10 @@ def check(path):
             errors.append("конец линии не у входа %d блока %s" % (o["pin"], label(t, None)))
         # вход I передаёт свой ID; выход функц. блока — адрес флага M (B001[M1] = 50000)
         net = s["id"] if s["kind"] == "CInputEntity" else s["out_net"]
+        # вход I хранит ID блока, куда идёт его сигнал (Studio пишет его при сохранении)
+        if s["kind"] == "CInputEntity" and s["out_net"] != t["id"]:
+            errors.append("у %s адресатом записан %d, а линия идёт в %s (%d)"
+                          % (label(s), s["out_net"], label(t), t["id"]))
         if t["srcs"][o["pin"]] != net:
             errors.append("у %s на входе %d записан источник %d, а линия идёт от %d"
                           % (label(t, None), o["pin"], t["srcs"][o["pin"]], net))

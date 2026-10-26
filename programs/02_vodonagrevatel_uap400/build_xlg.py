@@ -43,6 +43,11 @@ assert out[6:19] == b"COutputEntity"
 assert note[6:17] == b"CNoteEntity"
 assert line[6:17] == b"CLineEntity"
 
+# --- I1: куда идёт сигнал — ID блока-приёмника (Q001), так сохраняет Studio ---
+IN_BODY = 6 + 12
+assert struct.unpack_from("<I", inp, IN_BODY + 0x2A0)[0] == 100000
+put_u32(inp, IN_BODY + 0x2A0, 12000)
+
 # --- Q1: источник сигнала — I1 (ID 100) вместо выхода RS-триггера ---
 OUT_BODY = 6 + 13
 assert struct.unpack_from("<I", out, OUT_BODY + 0x142)[0] == 12000
