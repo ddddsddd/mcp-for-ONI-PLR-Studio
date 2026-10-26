@@ -13,11 +13,12 @@ import sys
 
 # Размер тела записи (после имени класса) для блоков фиксированной длины.
 FIXED = {"CInputEntity": 0x438, "COutputEntity": 0x440, "CRSEntity": 0x41C,
-         "CLogicANDEntity": 0x480}
+         "CLogicANDEntity": 0x480, "CLogicOREntity": 0x480, "CLogicNOTEntity": 0x480}
 NOTE_HEAD, NOTE_TAIL = 0x41, 0x13C
 LINE_HEAD = 0x166            # до счётчика точек
 POINT_PAD = 100               # байты-заполнители перед координатами точки
-PREFIX = {"CInputEntity": "I", "COutputEntity": "Q", "CRSEntity": "B", "CLogicANDEntity": "B"}
+PREFIX = {"CInputEntity": "I", "COutputEntity": "Q", "CRSEntity": "B", "CLogicANDEntity": "B",
+          "CLogicOREntity": "B", "CLogicNOTEntity": "B"}
 
 
 class Reader:
@@ -143,10 +144,11 @@ def check(path):
             errors.append("конец линии не у входа %d блока %s" % (o["pin"], label(t, None)))
         # вход I передаёт свой ID; выход функц. блока — адрес флага M (B001[M1] = 50000)
         net = s["id"] if s["kind"] == "CInputEntity" else s["out_net"]
-        # вход I хранит ID блока, куда идёт его сигнал (Studio пишет его при сохранении)
-        if s["kind"] == "CInputEntity" and s["out_net"] != t["id"]:
-            errors.append("у %s адресатом записан %d, а линия идёт в %s (%d)"
-                          % (label(s), s["out_net"], label(t), t["id"]))
+        # вход I хранит ID одного блока, куда идёт его сигнал (при нескольких — первого)
+        dsts = [l["dst"] for l in objs if l["kind"] == "CLineEntity" and l["src"] == s["id"]]
+        if s["kind"] == "CInputEntity" and s["out_net"] not in dsts:
+            errors.append("у %s адресатом записан %d, а линии идут в %s"
+                          % (label(s), s["out_net"], dsts))
         if t["srcs"][o["pin"]] != net:
             errors.append("у %s на входе %d записан источник %d, а линия идёт от %d"
                           % (label(t, None), o["pin"], t["srcs"][o["pin"]], net))
