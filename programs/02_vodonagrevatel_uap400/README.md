@@ -36,6 +36,11 @@
 
 ## Программа
 
+![Программа для ONI PLR Studio](program.png)
+
+Рисунок строит [`draw_program.py`](draw_program.py) (`pip install matplotlib`, затем
+`python3 draw_program.py`).
+
 Входы `I1` и `I2` идут на блок **И** (`B001`), его выход — на оба выхода `Q1` и `Q2`:
 
 ```
