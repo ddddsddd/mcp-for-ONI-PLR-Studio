@@ -13,12 +13,14 @@ import sys
 
 # Размер тела записи (после имени класса) для блоков фиксированной длины.
 FIXED = {"CInputEntity": 0x438, "COutputEntity": 0x440, "CRSEntity": 0x41C,
-         "CLogicANDEntity": 0x480, "CLogicOREntity": 0x480, "CLogicNOTEntity": 0x480}
+         "CLogicANDEntity": 0x480, "CLogicOREntity": 0x480, "CLogicNOTEntity": 0x480,
+         "CLogicXOREntity": 0x480, "CTimeOnDelayEntity": 0x4AC}
 NOTE_HEAD, NOTE_TAIL = 0x41, 0x13C
 LINE_HEAD = 0x166            # до счётчика точек
 POINT_PAD = 100               # байты-заполнители перед координатами точки
 PREFIX = {"CInputEntity": "I", "COutputEntity": "Q", "CRSEntity": "B", "CLogicANDEntity": "B",
-          "CLogicOREntity": "B", "CLogicNOTEntity": "B"}
+          "CLogicOREntity": "B", "CLogicNOTEntity": "B",
+          "CLogicXOREntity": "B", "CTimeOnDelayEntity": "B"}
 
 
 class Reader:
